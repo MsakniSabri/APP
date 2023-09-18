@@ -1,0 +1,52 @@
+html, body {
+  height: 100%; width; 100%;
+  margin: 0;
+  padding; 0;
+  background-color: white;
+  font-family: Arial;
+}
+
+#conteneur{
+	display: flex;
+	flex-direction: column;	
+}
+
+hr{
+	display: block;
+	width: 800px;
+	color: #f3f3f3;
+}
+.terms{							
+	display: flex;
+	flex-direction: column;
+}
+
+.terms h2{	/* Mettre le titre en souligné */
+	text-align: center;
+	font-size: 37px;
+	text-decoration: underline;
+}
+
+.terms h1{	/* Mettre les sous-parties en gras et au milieu */
+	text-align: center;
+	font-size:37px;
+}
+
+.terms p{ /* Mettre le texte au milieu de la page  */
+	text-align: center;
+	width: 60%;
+	position: relative;
+	left: 19%;
+	font-size: 18px;
+}
+
+.terms img{	/* Mettre l'image au milieu pour séparer chaque sous-parties */
+	margin-left : auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.terms ul{
+	margin-left: auto;
+	margin-right: auto;
+}

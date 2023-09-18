@@ -1,0 +1,63 @@
+
+/*
+  ========================================
+  Layout du site
+  ========================================
+*/
+/*
+  ========================================
+  Slide début
+  ========================================
+*/body {
+  height: 100%; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial;
+}
+
+
+video{
+  object-fit: fill;
+}
+
+/*
+  ========================================
+  Premier flex Blanc/Image
+  ========================================
+*/
+#conteneur{
+  display: flex;
+}
+.element{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-evenly;
+}
+.element div:hover{
+  color:#d5c800;
+}
+.element{
+  flex : 1 1 0;
+  min-width: 0;
+  justify-content: center;
+  background: white;
+}
+
+/*
+  ========================================
+  Deuxieme flex : Image/Blanc
+  ========================================
+*/
+
+
+
+  

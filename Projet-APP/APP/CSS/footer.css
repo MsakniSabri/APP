@@ -1,0 +1,71 @@
+.copyright
+{
+  color:black;
+}
+
+.footer
+{
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+.footer p
+{
+  color: black;
+}
+
+.footer_menu
+{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.footer_follow
+{
+  width: 30%;
+  text-align: center;
+}
+
+.follow_icons
+{
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+}
+.follow_icons img{
+  margin-left: 60px;
+}
+
+#Follow
+{
+  height: 30px;
+}
+
+.footer_logo
+{
+  display: flex;
+  justify-content:  space-between;
+  align-items:  end;
+}
+
+#footer_logo
+{
+  width: 60px;
+  
+}
+
+h1
+{
+  color: black;
+}
+
+footer {
+  background:#c4c4c4;
+  width: 100%;
+  bottom:0px;
+  right: 0px;
+  font-family: Arial;
+}

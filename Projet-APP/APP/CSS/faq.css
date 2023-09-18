@@ -1,0 +1,133 @@
+html, body {
+  height: 100%; width; 100%;
+  margin: 0;
+  padding; 0;
+  font-family: Arial;
+}
+/* Va nous permettre d'avoir des flex et de les gérer de façon à ce que ça ressemble à une page de FAQ */
+#conteneur{
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+   .shape {
+   	display: flex;
+   	flex-direction: column;
+      width: 70%;
+      height:150px;
+      background-image: url("../Media/faqBack.jpg");
+      position: relative;
+      left: 15%;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding-left: 30px;
+      font-size: 15px;
+      box-shadow: 10px ;
+    }
+    .shape:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 58px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid #d8d8d8;
+      border-bottom: 13px solid transparent;
+    }
+/* -----------------------------------------------------------------------------
+  |element 1 Correspond à la disposition du titre "FAQ" et du bouton recherche  |
+   -----------------------------------------------------------------------------
+*/
+
+/* C'est pour mettre la fonction recherche en ligne et un peu sur la droite*/
+.faqLel{
+	text-align: center;
+}
+
+.element1 form{		
+	z-index: 1;			
+	display: inline-flex;
+	font-size: 22px;
+	position: relative;
+	left: 100px;
+}
+/* On veut que le titre de la page soit centrer */
+.element1 h1{
+	text-align: center;
+}
+/* -----------------------------------------------------------------------------
+  |element 2 Correspond à la disposition des questions / réponses               |
+   -----------------------------------------------------------------------------
+*/
+
+.element2{
+	font-size: 22px;
+	display: block;
+	margin-top: 20px;
+}
+.element2 h6{
+	font-weight: normal;
+	font-size: 22px;
+}
+/* 1ère question */
+.span1:focus~.text1{	/* Afficher le text quand on appuie sur la question*/ 
+	display: block;
+      width: auto;
+      height: 28%;
+      border-radius: 50px;
+}
+.span2:focus~.text1{	/* Fermer le text quand on appuie sur fermer*/
+	display: none;
+}
+.text1{
+	display: none;		/* Faire en sorte que le text ne s'affiche pas par défaut */
+	background-color: #D3D3D3;
+}
+
+.buttonCss{
+	border-radius: 50px;
+}
+
+.faqhelp + span{
+  display:none;
+}
+
+.faqhelp:focus + span {
+  display:block;
+}
+
+.faqhelp:focus {
+  pointer-events: none;
+}
+
+/* ajout*/
+article {
+  display:flex;
+  flex-direction:column;
+}
+.faqhelp + span { /* Ca sert à cacher la réponse */
+  display:block;
+  font-size:0px;	
+  overflow:hidden;
+  transition:0.5s ;
+}
+
+.faqhelp:focus + span {
+  font-size:1rem;;
+}
+
+.faqhelp{
+	color:black;
+	text-decoration: none;
+}
+.over{
+	overflow: auto;
+}
+span{
+	
+}

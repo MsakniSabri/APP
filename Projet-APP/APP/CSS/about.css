@@ -1,0 +1,58 @@
+html, body {
+  height: 100%; width; 100%;
+  margin: 0;
+  padding; 0;
+  background-color: white;	/* Couleur similaire à celle de l'image About */
+  font-family: Arial;
+}
+
+.titre p{
+  text-align: center;
+  font-family: "Lucida Sans Unicode";
+  font-size: 40px;
+}
+
+#conteneur{
+  display: flex;
+}
+.element{
+  display: flex;
+  flex : 1 ;
+  min-width: 0;
+  flex-wrap: wrap;
+}
+.element img{
+float: left;
+}
+
+.element p{
+	font-family: : "Comic Sans MS","Comic Sans",cursive;
+	font-size: 20px;
+}
+
+.about img{
+	margin-bottom: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.topDesc{
+	text-align: center;
+	font-size: 18px;
+}
+
+.botDesc{
+	text-align: center;
+	font-size: 18px;
+}
+
+hr {
+	max-width: 30%;
+	color:red;
+}
+.botDesc h2{
+	font-weight: normal;
+	font-size: 18px;
+	font-style: italic;
+}

@@ -1,0 +1,220 @@
+/*
+  ========================================
+  Layout du header
+  ========================================
+*/
+header {
+  z-index: 999999;
+  background-color: white;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  align-items: flex-end;
+  position:sticky;
+  max-height: 120px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid;
+  border-color: #e4e4e4;
+  font-family: Arial;
+}
+
+.preheader
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#logo
+{
+  margin: 10px 10px 0px 10px;
+  width: 80px;
+  position: relative;
+  top: 25px;
+}
+
+#user
+{
+  color: cornflowerblue;
+  position: absolute;
+}
+
+
+/*
+  ========================================
+  Layout du menu 
+  ========================================
+*/
+
+.menu1,.menu2
+{
+  display: flex;
+
+
+}
+
+li{
+  z-index: 99999;
+}
+
+
+
+.menuoptions{
+  margin: 0px;
+  padding : 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.contenuMenu {
+  display:none;
+  position: absolute;
+  background-color: white;
+  min-width: 130px;
+  background: #eaeaed;
+}	
+
+.contenuMenu a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 10px 3px 3px 3px;
+  background: white;
+}
+
+.menubtn{
+  font-size: medium;;
+  border: none;
+  background: transparent;
+  color: black;
+  padding: 5px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.boutonCreerCompte{
+  font-size: medium;;
+  border: none;
+  background: transparent;
+  padding: 5px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+.boutonCreerCompte a{
+  color : black;
+   text-decoration: none;
+}
+
+.menuDeroulant {
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  left: 100px;
+}
+
+
+.menuDeroulant:hover .contenuMenu {
+  display: block;
+}
+
+.menuDeroulant:hover{
+	background-color:grey;
+	color: black;
+}
+
+
+.menubtn a, .contenuMenu a,{
+  color: white;	
+  text-decoration: none;
+}
+
+.menubtn:hover{
+  color: black;
+}
+
+
+.menubtn a:hover, .contenuMenu a:hover, .menubtnsingle:hover,.menubtnsingle2:hover{
+  color: black;	
+  background-color: grey;
+}
+
+/* barre de recherche */
+nav {
+  width: 100%;
+	border-radius: 3px;
+	border: none;	
+}
+
+.menuinput {
+	width: 100%;
+	font-size: medium;
+	border: none;
+	background: transparent;
+	color: white;
+	padding: 5px;
+  position: relative;
+  bottom: 16px;
+}
+
+.menubtnsingle{
+  font-size: medium;
+  border: none;
+  background: transparent;
+  color: black;
+  padding: 5px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+.menubtnsingle2{
+  bottom: 20px;
+  left: 100px;
+  font-size: medium;
+  border: none;
+  background: transparent;
+  color: black;
+  padding: 5px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.menubtnsingle a,.menubtnsingle2 a{
+  color: black;  
+  text-decoration: none;
+}
+
+
+input[type=search]
+{
+	padding: 0px;
+	padding-left: 3px;
+	display: inline-block;
+	border-radius: 0px;
+}
+
+#search-button {
+	margin: 0px;
+	border: none;
+	padding: 0px;
+	color: black;
+	text-align: center;
+	background-color: transparent;
+	display: inline-block;
+}
+
+.menuinput {
+	display: inline-block;		
+	height: 100%;
+	width: 100%;
+}
+
+#search-button hover {
+	cursor: pointer;
+}

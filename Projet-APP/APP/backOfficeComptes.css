@@ -1,0 +1,72 @@
+
+
+/*layout du site*/
+html{
+  font-family: Arial;
+}
+body {
+
+  height: 100%; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  margin: 4px;
+}
+
+form{
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: left;
+}
+tr:hover{
+  background-color: silver;
+}
+th{
+  text-align: center;
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.saut{
+	margin-bottom: 200px;
+}
+
+.bottomDescr {
+margin-top: 1%;
+margin-left: 33%;
+}
+.bottomDescr input{
+	margin-left: 15px;
+  border-radius: 10px;
+}
+
+.bottomDescr input:hover{
+	color:white;
+	background-color: black;
+}
+
+.enregistrer{
+	margin-top: 30px;
+}
+.enregistrer a{
+	margin-left: 39%;
+	text-decoration: none;
+}
+
+.positionEcho{
+	position: relative;
+	left: 500px;
+	top: 200px;
+}

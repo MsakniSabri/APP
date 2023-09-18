@@ -1,0 +1,1 @@
+alert("Bienvenue sur notre page présentant les politiques de confidentialité de notre site. Nous espérons que vous pourrez bien les lire.");

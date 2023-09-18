@@ -1,0 +1,94 @@
+
+/*layout du site*/
+
+body {
+  height: 100%; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial;
+}
+#modif{
+  display: flex;
+  justify-content: center;
+}
+section{
+  width: 33%;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  
+  margin: 20px 0px 20px 0px;
+  color:black;
+  font-size: 130%;
+}
+.labelInput{
+  display: flex;
+  justify-content:  space-between;
+}
+
+.inputText {
+  border-radius: 4px;
+  margin: 0;
+  width: 50%;
+  margin: 10px 0px 10px 0px;
+}
+
+legend{
+  margin: 15px;
+  color:black;
+  font-size: 150%;
+  text-align: center;
+}
+
+span{
+  color: red;
+  font-size: 80%;
+}
+
+.validif{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.correct {
+	border-color: rgba(0, 256, 0, 0.75);
+  background: rgba(0, 256, 0, 0.1);
+  border-radius: 4px;
+  margin: 0;
+  width: 50%;
+  margin: 10px 0px 10px 0px;
+}
+	
+.correct:focus {
+	box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+  border-radius: 4px;
+  margin: 0;
+  width: 50%;
+  margin: 10px 0px 10px 0px;
+}
+	
+.incorrect {
+	border-color: rgba(256, 0, 0, 0.60);
+  background: rgba(256, 0, 0, 0.10);
+  border-radius: 4px;
+  margin: 0;
+  width: 50%;
+  margin: 10px 0px 10px 0px;
+}
+	
+.incorrect:focus {
+	box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+  border-radius: 4px;
+  margin: 0;
+  width: 50%;
+  margin: 10px 0px 10px 0px;
+}

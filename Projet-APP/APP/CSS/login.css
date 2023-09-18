@@ -1,0 +1,83 @@
+
+/*layout du site*/
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 4px;
+  margin: 0;
+}
+
+legend,fieldset{
+  margin: 8px;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+}
+
+.login h1, .login h4{
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  color:black;
+  position: relative;
+  left: 2%;
+}
+
+.login label,legend{
+  position: relative;
+  right: 50px;
+  color:black;
+  font-size: 120%;
+}
+
+#loginquestion{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+#loginquestion p{
+  color:black;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100%;
+  position: relative;
+  left: 1%;
+}
+
+#loginquestion a{
+    color:black;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100%;
+}
+
+.inputinfo input{
+  width: 150%;
+}
+
+.submitbut input{
+  position: relative;
+  margin-top: 10%;
+  left: 25%;
+  width: 60%;
+}

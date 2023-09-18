@@ -1,0 +1,26 @@
+/*layout du site*/
+body {
+  font-family: Arial;
+  height: 100%; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.titre{
+	margin-top: 1%;
+	margin-left: 7%;
+    font-size: 120%;
+    margin-bottom: 1%;
+}
+.titre legend{
+	margin-bottom: 2%;
+}
+
+.backOfficeFAQ{
+	margin-top: 20px;
+}
+.saut{
+  margin-bottom: 100px;
+}

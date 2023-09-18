@@ -1,0 +1,48 @@
+html, body {
+  height: 100%; width; 100%;
+  margin: 0;
+  padding; 0;
+  font-family: Arial;
+}
+
+.header h1{
+  text-align: center;
+  font-size: 280%;
+  text-decoration: underline;
+}
+
+.contact{
+  display: flex;
+  direction: column;
+}
+
+.contact label{
+  font-size: 20px;
+}
+
+.contact form{    /* Les mettre au milieu */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elem-group{
+  margin-top: 20px;
+}
+
+.contact button{
+  position: relative;
+  left: 100px;
+  margin-top: 50px;
+}
+
+.contact button:hover {
+  border: 3px solid black;
+}
+
+.button{
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+.saut{
+  margin-top: 68px;
+}

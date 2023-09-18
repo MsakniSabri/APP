@@ -1,0 +1,51 @@
+
+/*layout du site*/
+hr{
+  width: auto;
+  color:#fefefe;
+}
+
+body {
+  height: 100%; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: Arial;
+}
+
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 4px;
+}
+
+fieldset{
+  margin: 30px;
+  color: black;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+legend{
+  font-size: 200%;
+  margin : 20px;
+}
+
+label{
+  font-size: 150%;
+}
+
+.validif{
+  margin-top: 20%;
+  position: relative;
+  left: 30%;
+}
